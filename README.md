@@ -106,16 +106,28 @@ Non-convex case is more challenging
 $$x=\sum_i\lambda_ix_i$$
 $$y=\sum_i\lambda_iy_i$$
 $$\sum_i\lambda_i = 1$$
-$$\lambda_i\geq 0, SOS2$$
+$$\lambda_i\geq 0$$
+$$SOS2$$
 - SOS-2 constraint is redundant if $f$ is convex
 - Binary representation also exists
 
-# Min/max functions - Convex case
+# Min/max functions - Non-convex case
 - Easy to minimize the largest value (minimax) or maximize the smallest value (maximin)
 
 $min\{max_i x_i\}$  can be rewritten as: 
 $$min z$$
 $$z\geq x_i \forall i$$
+
+# Min/max functions - Convex case
+- Harder to minimize the smallest value (minimin) or maximize the largest value (maximax)
+  - Use multiple indicator variables and big-M value
+
+$min\{min_{i}x_{i}\}$ can be rewritten as:
+$$min z$$
+$$z \geq x_i - M(1-y_i)$$
+$$\sum_iy_i=1$$
+$$y_i \in \{0,1\}$$
+
 
 
 
