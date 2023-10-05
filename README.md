@@ -77,6 +77,32 @@ $x_p, x_n \in SOS-1$
 
 # Piecewise linear functions
 
+Generalization of absolute value functions
+
+Convex case is easy
+- Function represented by LP
+
+Non-convex case is more challenging 
+- Function represented as MIP or SOS-2 constraints
+
+### Piecewise linear functions - Applications
+
+- Piecewise linear functions appear in models all the time
+- Examples:
+  - Fixed costs in manufacturing due to setup
+  - Economies of scale when discounts are applied after buying a certain number of items
+- Also useful when approximating non-linear functions
+  - More pieces provide for a better approximation
+- Examples:
+  - Unit commitment models in energy sector
+  - ...
+ 
+     
+### Piecewise linear functions - SOS-2 constraint
+
+![截屏2023-10-05 18 41 06](https://github.com/liu-cui/advanced-modeling-techniques/assets/55623869/45b14927-e326-4938-9023-acf623af45da)
+
+
 
 
 
