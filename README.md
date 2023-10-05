@@ -31,25 +31,32 @@ Simply substitute if absolute value function creates a convex model: $\min\|x\|$
 
 $\min z$ \
 $z = x_p + x_n$ \
-$x = x_p - x_n$ 
+$x = x_p - x_n$ \
 
 ### Non-convex case
 Use indicator variable and arbitrary big-M value to prevent both $x_p$ and $x_n$ positive: $max\|x\|$
 
 $max z$ \
-$z = x_p + x_n$
-$x = x_p - x_n$
-$x_p \leq My$
-$x_n \leq M(1-y)$
-$y\in \{0,1\}$
+$z = x_p + x_n$ \
+$x = x_p - x_n$ \
+$x_p \leq My$ \
+$x_n \leq M(1-y)$ \
+$y\in \{0,1\}$ \
 
 ### SOS-1 constraint 
 Use SOS-1 constraint to prevent both $x_p$ and $x_n$ positive: $max\|x\|$
 
 $max z$ \
-$z = x_p + x_n$
-$x = x_p - x_n$
-$x_p, x_n \in SOS-1$
+$z = x_p + x_n$ \
+$x = x_p - x_n$ \
+$x_p, x_n \in SOS-1$ \
+
+- No big-M value needed
+- Works for both convex and non-convex version
+
+>Which will perform better?
+
+
 
 
 
