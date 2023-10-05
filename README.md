@@ -214,7 +214,7 @@ rewritten as:
 $$\sum_{i}a_{i}^{k}x_{i} + w^{k} = b^{k}$$
 $$w^{k} \leq M(1-y^{k})$$
 $$w^{k} \geq -M(1-y^{k})$$
-$$y^{k}\in {0, 1}$$
+$$y^{k}\in \\{0, 1\\}$$
 
 
 
