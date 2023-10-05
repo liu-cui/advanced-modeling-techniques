@@ -10,7 +10,7 @@ advanced modeling techniques
 - Semi-conditinous variables
 - Selecting big-M values
 
-some popular logical expressions
+some popular logical expressions:
 - Absolute value
 - Min/Max value
 - And/Or over binary variables
@@ -18,9 +18,15 @@ some popular logical expressions
 
 ## Range constraints
 
-Many models contain constraints like: 
+Many models contain constraints like: $L \leq \sum_{i}a_{i}}x_{i} \leq U$
 
-$L \leq x_i \leq U$
+These can be rewritten as: 
+$ r + \sum_{i}a_{i}x_{i}=U $
+
+$ 0 \leq r \leq U-L$
+
+
+
 
   
 
