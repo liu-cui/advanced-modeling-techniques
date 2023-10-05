@@ -1,10 +1,13 @@
 
-- [Overview](##Overview)
-- [Range constraints](##Rangeconstraints)
 
-# Modeling
 advanced modeling techniques
 
+- [Overview](##Overview)
+- [Range constraints](##RangeConstraints)
+- [Absolute value](##AbsoluteValue)
+  - [Convex Case](##ConvexCase)
+  - [Non-convex Case](###Non-convexCase)
+- [Sepcial Ordered Sets](##SepcialOrderedSets)
 
 ## Overview 
 Overview of selectd modeling techniques
@@ -21,22 +24,22 @@ some popular logical expressions:
 - And/Or over binary variables
 - Indicator(if-then logic)
 
-## Range constraints
+## RangeConstraints
 Many models contain constraints like: $L \leq \sum_{i}a_{i}x_{i} \leq U$
 
 These can be rewritten as: 
 $$r + \sum_{i}a_{i}x_{i}=U $$
 $$0 \leq r \leq U-L$$
 
-## Absolute value
+## AbsoluteValue
 
-### Convex case
+### ConvexCase
 Simply substitute if absolute value function creates a convex model: $\min\|x\|$
 $$\min z$$
 $$z = x_p + x_n$$
 $$x = x_p - x_n$$
 
-### Non-convex case
+### Non-convexCase
 Use indicator variable and arbitrary big-M value to prevent both $x_p$ and $x_n$ positive: $\max\|x\|$
 
 $$\max z$$
@@ -47,14 +50,14 @@ $$x_n \leq M(1-y)$$
 $$y\in \{0,1\}$$ 
 
 
-### Sepcial Ordered Sets（特殊顺序集）
+## SepcialOrderedSets（特殊顺序集）
 - Specical Ordered Sets of type 1 (SOS-1) : at most one variable in set may be no-zero
 - Specical Ordered Sets of type 1 (SOS-2) : an ordered set where
   - at most two variable in set may be no-zero
   - non-zero variable must be adjacent(近邻的)
 - Variables need not be integer
 
-### SOS-1 constraint 
+### SOS1-Constraint 
 Use SOS-1 constraint to prevent both $x_p$ and $x_n$ positive: $\max\|x\|$
 $$\max z$$
 $$z = x_p + x_n$$
@@ -66,7 +69,7 @@ $$x_p, x_n \in SOS-1$$
 
 >Which will perform better?
 
-### SOS constraints vs big-M representation
+### SOSConstraints_VS_big-M_Representation
 
 - SOS constraints are handled with branching rules(not included in LP relaxation)
 - SOS advantages:
@@ -77,7 +80,7 @@ $$x_p, x_n \in SOS-1$$
   - typically results in better performance as long as M is relatively small
 
 
-## Piecewise linear functions
+## PiecewiseLinearFunctions
 
 Generalization of absolute value functions
 
@@ -87,7 +90,7 @@ Convex case is easy
 Non-convex case is more challenging 
 - Function represented as MIP or SOS-2 constraints
 
-### Piecewise linear functions - Applications
+### PiecewiseLinearFunctionsApplications
 
 - Piecewise linear functions appear in models all the time
 - Examples:
