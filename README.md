@@ -199,8 +199,8 @@ rewritten as:
 $$\sum_{i}a_i^{1}x_{i} \leq b^1 + M(1-y^{1})$$ 
 $$\sum_{i}a_i^{2}x_{i} \leq b^2 + M(1-y^{2})$$ 
 $$\sum_{i}a_i^{3}x_{i} \leq b^3 + M(1-y^{3})$$ 
-$$y_^{1} + y_^{2} + y_^{3} \geq 1$$ 
-$$y_^{1}, y_^{2}, y_^{3} \in \{0, 1\}$$ 
+$$y^{1} + y^{2} + y^{3} \geq 1$$ 
+$$y^{1}, y^{2}, y^{3} \in \{0, 1\}$$ 
 
 ## Logical_Conditions_On_Equalities_Or
 
