@@ -106,7 +106,7 @@ Non-convex case is more challenging
 $$x=\sum_i\lambda_ix_i$$
 $$y=\sum_i\lambda_iy_i$$
 $$\sum_i\lambda_i = 1$$
-$$\lambda_i\geq 0, SOS-2$$
+$$\lambda_i\geq 0, SOS2$$
 - SOS-2 constraint is redundant if $f$ is convex
 - Binary representation also exists
 
