@@ -4,16 +4,16 @@
 advanced modeling techniques
 
 - [Overview](##Overview)
-- [Range Constraints](##RangeConstraints)
-- [Absolute Value](##AbsoluteValue)
-  - [Convex Case](##ConvexCase)
-  - [Non-convex Case](###Non-convexCase)
-- [Sepcial Ordered Sets: SOS](##SepcialOrderedSets)
-  - [SOS1 Constraint](###SOS1-Constraint)
-  - [SOS Constraints VS big-M Representation](###SOSConstraints_VS_big-M_Representation)
-- [Piecewise Linear Functions](##PiecewiseLinearFunctions)
-  - [Piecewise Linear Functions Applications](###PiecewiseLinearFunctionsApplications)
-  - [Piecewise Linear Functions SOS2 Constraint](###PiecewiseLinearFunctions_SOS2_Constraint)
+- [Range Constraints](##Range_Constraints)
+- [Absolute Value](##Absolute_Value)
+  - [Convex Case](##Convex_Case)
+  - [Non-convex Case](###Non-convex_Case)
+- [Sepcial Ordered Sets: SOS](##Sepcial_Ordered_Sets)
+  - [SOS1 Constraint](###SOS1_Constraint)
+  - [SOS Constraints VS big-M Representation](###SOS_Constraints_VS_bigM_Representation)
+- [Piecewise Linear Functions](##Piecewise_Linear_Functions)
+  - [Piecewise Linear Functions Applications](###Piecewise_Linear_Functions_Applications)
+  - [Piecewise Linear Functions SOS2 Constraint](###Piecewise_Linear_Functions_SOS2_Constraint)
 - [Min/Max Functions](##Min_Max_Functions)
   - [Non-convex Case](###Non-convex_case)
   - [Convex Case](###Convex_case)
@@ -38,22 +38,22 @@ some popular logical expressions:
 - And/Or over binary variables
 - Indicator(if-then logic)
 
-## RangeConstraints
+## Range_Constraints
 Many models contain constraints like: $L \leq \sum_{i}a_{i}x_{i} \leq U$
 
 These can be rewritten as: 
 $$r + \sum_{i}a_{i}x_{i}=U $$
 $$0 \leq r \leq U-L$$
 
-## AbsoluteValue
+## Absolute_Value
 
-### ConvexCase
+### Convex_Case
 Simply substitute if absolute value function creates a convex model: $\min\|x\|$
 $$\min z$$
 $$z = x_p + x_n$$
 $$x = x_p - x_n$$
 
-### Non-convexCase
+### Non-convex_Case
 Use indicator variable and arbitrary big-M value to prevent both $x_p$ and $x_n$ positive: $\max\|x\|$
 
 $$\max z$$
@@ -64,14 +64,15 @@ $$x_n \leq M(1-y)$$
 $$y\in \\{0,1\\}$$ 
 
 
-## SepcialOrderedSets（特殊顺序集）
+## Sepcial_Ordered_Sets
+
 - Specical Ordered Sets of type 1 (SOS-1) : at most one variable in set may be no-zero
 - Specical Ordered Sets of type 1 (SOS-2) : an ordered set where
   - at most two variable in set may be no-zero
   - non-zero variable must be adjacent(近邻的)
 - Variables need not be integer
 
-### SOS1-Constraint 
+### SOS1_Constraint 
 Use SOS-1 constraint to prevent both $x_p$ and $x_n$ positive: $\max\|x\|$
 $$\max z$$
 $$z = x_p + x_n$$
@@ -83,7 +84,7 @@ $$x_p, x_n \in SOS-1$$
 
 >Which will perform better?
 
-### SOSConstraints_VS_big-M_Representation
+### SOS_Constraints_VS_bigM_Representation
 
 - SOS constraints are handled with branching rules(not included in LP relaxation)
 - SOS advantages:
@@ -94,7 +95,7 @@ $$x_p, x_n \in SOS-1$$
   - typically results in better performance as long as M is relatively small
 
 
-## PiecewiseLinearFunctions
+## Piecewise_Linear_Functions
 
 Generalization of absolute value functions
 
@@ -102,9 +103,9 @@ Convex case is easy
 - Function represented by LP
 
 Non-convex case is more challenging 
-- Function represented as MIP or SOS-2 constraints
+- Function represented as MIP or SOS2 constraints
 
-### PiecewiseLinearFunctionsApplications
+### Piecewise_Linear_Functions_Applications
 
 - Piecewise linear functions appear in models all the time
 - Examples:
@@ -117,7 +118,7 @@ Non-convex case is more challenging
   - ...
  
      
-### PiecewiseLinearFunctions_SOS2_Constraint
+### Piecewise_Linear_Functions_SOS2_Constraint
 
 ![截屏2023-10-05 18 41 06](https://github.com/liu-cui/advanced-modeling-techniques/assets/55623869/45b14927-e326-4938-9023-acf623af45da)
 
@@ -128,7 +129,7 @@ $$y=\sum_i\lambda_iy_i$$
 $$\sum_i\lambda_i = 1$$
 $$\lambda_i\geq 0$$
 $$SOS2$$
-- SOS-2 constraint is redundant if $f$ is convex
+- SOS2 constraint is redundant if $f$ is convex
 - Binary representation also exists
 
 ## Min_Max_Functions
