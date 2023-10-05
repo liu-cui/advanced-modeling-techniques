@@ -3,8 +3,8 @@
 advanced modeling techniques
 
 - [Overview](##Overview)
-- [Range constraints](##RangeConstraints)
-- [Absolute value](##AbsoluteValue)
+- [Range Constraints](##RangeConstraints)
+- [Absolute Value](##AbsoluteValue)
   - [Convex Case](##ConvexCase)
   - [Non-convex Case](###Non-convexCase)
 - [Sepcial Ordered Sets: SOS](##SepcialOrderedSets)
@@ -13,9 +13,10 @@ advanced modeling techniques
 - [Piecewise Linear Functions](##PiecewiseLinearFunctions)
   - [Piecewise Linear Functions Applications](###PiecewiseLinearFunctionsApplications)
   - [Piecewise Linear Functions SOS2 Constraint](###PiecewiseLinearFunctions_SOS2_Constraint)
-- (Min/Max Functions)[##Min_Max_Functions]
-  - (Non-convex Case)[###Non-convex_case]
-  - (Convex Case)[###Convex_case]
+- [Min/Max Functions](##Min_Max_Functions)
+  - [Non-convex Case](###Non-convex_case)
+  - [Convex Case](###Convex_case)
+- [Logical Conditions On Binary Variables](##Logical_Conditions_On_Binary_Variables)
 
 ## Overview 
 Overview of selectd modeling techniques
