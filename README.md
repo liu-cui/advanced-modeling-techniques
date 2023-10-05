@@ -7,7 +7,15 @@ advanced modeling techniques
 - [Absolute value](##AbsoluteValue)
   - [Convex Case](##ConvexCase)
   - [Non-convex Case](###Non-convexCase)
-- [Sepcial Ordered Sets](##SepcialOrderedSets)
+- [Sepcial Ordered Sets: SOS](##SepcialOrderedSets)
+  - [SOS1 Constraint](###SOS1-Constraint)
+  - [SOS Constraints VS big-M Representation](###SOSConstraints_VS_big-M_Representation)
+- [Piecewise Linear Functions](##PiecewiseLinearFunctions)
+  - [Piecewise Linear Functions Applications](###PiecewiseLinearFunctionsApplications)
+  - [Piecewise Linear Functions SOS2 Constraint](###PiecewiseLinearFunctions_SOS2_Constraint)
+- (Min/Max Functions)[##Min_Max_Functions]
+  - (Non-convex Case)[###Non-convex_case]
+  - (Convex Case)[###Convex_case]
 
 ## Overview 
 Overview of selectd modeling techniques
@@ -103,7 +111,7 @@ Non-convex case is more challenging
   - ...
  
      
-### Piecewise linear functions - SOS-2 constraint
+### PiecewiseLinearFunctions_SOS2_Constraint
 
 ![截屏2023-10-05 18 41 06](https://github.com/liu-cui/advanced-modeling-techniques/assets/55623869/45b14927-e326-4938-9023-acf623af45da)
 
@@ -117,14 +125,15 @@ $$SOS2$$
 - SOS-2 constraint is redundant if $f$ is convex
 - Binary representation also exists
 
-## Min/max functions - Non-convex case
+## Min_Max_Functions
+### Non-convex_case
 - Easy to minimize the largest value (minimax) or maximize the smallest value (maximin)
 
 $\min\{\max_i x_i\}$  can be rewritten as: 
 $$\min z$$
 $$z\geq x_i \forall i$$
 
-## Min/max functions - Convex case
+### Convex_case
 - Harder to minimize the smallest value (minimin) or maximize the largest value (maximax)
   - Use multiple indicator variables and big-M value
 
@@ -134,7 +143,7 @@ $$z \geq x_i - M(1-y_i)$$
 $$\sum_iy_i=1$$
 $$y_i \in \{0,1\}$$
 
-## Logical conditions on binary variables
+## Logical_Conditions_On_Binary_Variables
 
 - **And**
   - $x_1 = 1$ and $x_2 = 1$
