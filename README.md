@@ -112,8 +112,8 @@ $$SOS2$$
 # Min/max functions - Non-convex case
 - Easy to minimize the largest value (minimax) or maximize the smallest value (maximin)
 
-$min\{max_i x_i\}$  can be rewritten as: 
-$$min z$$
+$\min\{\max_i x_i\}$  can be rewritten as: 
+$$\min z$$
 $$z\geq x_i \forall i$$
 
 # Min/max functions - Convex case
