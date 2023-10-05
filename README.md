@@ -19,6 +19,9 @@ advanced modeling techniques
   - [Convex Case](###Convex_case)
 - [Logical Conditions On Binary Variables](##Logical_Conditions_On_Binary_Variables)
 - [Logical Conditions Variable Result](##Logical_Conditions_Variable_Result)
+- [Logical Conditions On Inequalities Or](##Logical_Conditions_On_Inequalities_Or)
+- [Logical Conditions On Equalities Or](##Logical_Conditions_On_Equalities_Or)
+
 
 ## Overview 
 Overview of selectd modeling techniques
@@ -144,7 +147,7 @@ $$z\geq x_i \forall i$$
 $$\min z$$
 $$z \geq x_i - M(1-y_i)$$
 $$\sum_iy_i=1$$
-$$y_i \in \{0,1\}$$
+$$y_i \in \\{0,1\\}$$
 
 ## Logical_Conditions_On_Binary_Variables
 
@@ -200,7 +203,7 @@ $$\sum_{i}a_i^{1}x_{i} \leq b^1 + M(1-y^{1})$$
 $$\sum_{i}a_i^{2}x_{i} \leq b^2 + M(1-y^{2})$$ 
 $$\sum_{i}a_i^{3}x_{i} \leq b^3 + M(1-y^{3})$$ 
 $$y^{1} + y^{2} + y^{3} \geq 1$$ 
-$$y^{1}, y^{2}, y^{3} \in {0, 1}$$ 
+$$y^{1}, y^{2}, y^{3} \in \\{0, 1\\}$$ 
 
 ## Logical_Conditions_On_Equalities_Or
 
@@ -215,6 +218,8 @@ $$\sum_{i}a_{i}^{k}x_{i} + w^{k} = b^{k}$$
 $$w^{k} \leq M(1-y^{k})$$
 $$w^{k} \geq -M(1-y^{k})$$
 $$y^{k}\in \\{0, 1\\}$$
+
+## Logical_Conditions_On_Constraints_At_Least
 
 
 
