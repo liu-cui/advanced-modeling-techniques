@@ -1,26 +1,28 @@
 
+
+
 # Content
 
 advanced modeling techniques
 
-- [Overview](##Overview)
-- [Range Constraints](##Range_Constraints)
-- [Absolute Value](##Absolute_Value)
-  - [Convex Case](##Convex_Case)
-  - [Non-convex Case](###Non-convex_Case)
-- [Sepcial Ordered Sets: SOS](##Sepcial_Ordered_Sets)
-  - [SOS1 Constraint](###SOS1_Constraint)
-  - [SOS Constraints VS bigM Representation](###SOS_Constraints_VS_bigM_Representation)
-- [Piecewise Linear Functions](##Piecewise_Linear_Functions)
-  - [Piecewise Linear Functions Applications](###Piecewise_Linear_Functions_Applications)
-  - [Piecewise Linear Functions SOS2 Constraint](###Piecewise_Linear_Functions_SOS2_Constraint)
-- [Min/Max Functions](##Min_Max_Functions)
-  - [Non-convex Case](###Non-convex_case)
-  - [Convex Case](###Convex_case)
-- [Logical Conditions On Binary Variables](##Logical_Conditions_On_Binary_Variables)
-- [Logical Conditions Variable Result](##Logical_Conditions_Variable_Result)
-- [Logical Conditions On Inequalities Or](##Logical_Conditions_On_Inequalities_Or)
-- [Logical Conditions On Equalities Or](##Logical_Conditions_On_Equalities_Or)
+* [Overview](##Overview)
+* [Range Constraints](##Range_Constraints)
+* [Absolute Value](##Absolute_Value)
+  * [Convex Case](##Convex_Case)
+  * [Non-convex Case](###Non-convex_Case)
+* [Sepcial Ordered Sets: SOS](##Sepcial_Ordered_Sets)
+  * [SOS1 Constraint](###SOS1_Constraint)
+  * [SOS Constraints VS bigM Representation](###SOS_Constraints_VS_bigM_Representation)
+* [Piecewise Linear Functions](##Piecewise_Linear_Functions)
+  * [Piecewise Linear Functions Applications](###Piecewise_Linear_Functions_Applications)
+  * [Piecewise Linear Functions SOS2 Constraint](###Piecewise_Linear_Functions_SOS2_Constraint)
+* [Min/Max Functions](##Min_Max_Functions)
+  * [Non-convex Case](###Non-convex_case)
+  * [Convex Case](###Convex_case)
+* [Logical Conditions On Binary Variables](##Logical_Conditions_On_Binary_Variables)
+* [Logical Conditions Variable Result](##Logical_Conditions_Variable_Result)
+* [Logical Conditions On Inequalities Or](##Logical_Conditions_On_Inequalities_Or)
+* [Logical Conditions On Equalities Or](##Logical_Conditions_On_Equalities_Or)
 
 
 ## Overview 
