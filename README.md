@@ -61,7 +61,7 @@ $$z = x_p + x_n$$
 $$x = x_p - x_n$$
 $$x_p \leq My$$
 $$x_n \leq M(1-y)$$
-$$y\in \{0,1\}$$ 
+$$y\in \\{0,1\\}$$ 
 
 
 ## SepcialOrderedSets（特殊顺序集）
@@ -135,7 +135,7 @@ $$SOS2$$
 ### Non-convex_case
 - Easy to minimize the largest value (minimax) or maximize the smallest value (maximin)
 
-$\min\{\max_i x_i\}$  can be rewritten as: 
+$\min\\{\max_i x_i\\}$  can be rewritten as: 
 $$\min z$$
 $$z\geq x_i \forall i$$
 
@@ -143,7 +143,7 @@ $$z\geq x_i \forall i$$
 - Harder to minimize the smallest value (minimin) or maximize the largest value (maximax)
   - Use multiple indicator variables and big-M value
 
-- $\min {\min_{i} x_{i} }$ can be rewritten as:
+- $\min \\{\min_{i} x_{i} \\}$ can be rewritten as:
 $$\min z$$
 $$z \geq x_i - M(1-y_i)$$
 $$\sum_iy_i=1$$
@@ -219,7 +219,8 @@ $$w^{k} \leq M(1-y^{k})$$
 $$w^{k} \geq -M(1-y^{k})$$
 $$y^{k}\in \\{0, 1\\}$$
 
-## Logical_Conditions_On_Constraints_At_Least
+
+
 
 
 
