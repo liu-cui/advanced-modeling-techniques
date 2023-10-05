@@ -1,4 +1,5 @@
 
+# Content
 
 advanced modeling techniques
 
@@ -17,6 +18,7 @@ advanced modeling techniques
   - [Non-convex Case](###Non-convex_case)
   - [Convex Case](###Convex_case)
 - [Logical Conditions On Binary Variables](##Logical_Conditions_On_Binary_Variables)
+- [Logical Conditions Variable Result](##Logical_Conditions_Variable_Result)
 
 ## Overview 
 Overview of selectd modeling techniques
@@ -160,9 +162,27 @@ $$y_i \in \{0,1\}$$
   - $\sum_{i}x_i \geq 3$
 - **If-then**
   - if $x_1=1$, then $x_2=1$
-  - $x_1 \leq x_2$  
+  - $x_1 \leq x_2$
+ 
+## Logical_Conditions_Variable_Result
 
+- **And**
+  - $y = (x_1$ and $x_2=1)$
+$$y\leq x_1$$ 
+$$y\leq x_2$$ 
+$$y\geq x_1 + x_2 -1$$
 
+- **Or**
+  - $y = (x_1$ or $x_2=1)$
+$$y\geq x_1$$ 
+$$y\geq x_2$$ 
+$$y\leq x_1 + x_2$$
+
+- **Exclusive or (not both)**
+  - $y = (x_1$ xor $x_2=1)$
+$$y\geq x_1 - x_2$$ 
+$$y\geq x_2 - x_1$$ 
+$$y\leq 2 - x_1 - x_2$$
 
 
 
