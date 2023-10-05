@@ -1,8 +1,8 @@
 # Modeling
 advanced modeling techniques
 
-[Overview](## Overview)
-[Range constraints](## Range constraints)
+* [Overview](##Overview)
+* [Range constraints](##Range constraints)
 
 ## Overview 
 Overview of selectd modeling techniques
