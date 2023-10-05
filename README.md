@@ -102,6 +102,21 @@ Non-convex case is more challenging
 
 ![截屏2023-10-05 18 41 06](https://github.com/liu-cui/advanced-modeling-techniques/assets/55623869/45b14927-e326-4938-9023-acf623af45da)
 
+- Let $(x_i,y_i)$ represent $i^{th}$ point in piecewise linear function
+- To represent $y=f(x)$, use: $x=\sum_i\lambda_ix_i$
+$y=\sum_i\lambda_iy_i$ \
+$\sum_i\lambda_i = 1$ \ 
+$\lambda_i\geq 0, SOS-2$
+
+- SOS-2 constraint is redundant if $f$ is convex
+- Binary representation also exists
+
+# Min/max functions - Convex case
+- Easy to minimize the largest value (minimax) or maximize the smallest value (maximin)
+
+$min\{max_i x_i\}$  can be rewritten as: 
+$min z$\
+$z\geq x_i \forall i$
 
 
 
