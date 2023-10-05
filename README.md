@@ -200,9 +200,21 @@ $$\sum_{i}a_i^{1}x_{i} \leq b^1 + M(1-y^{1})$$
 $$\sum_{i}a_i^{2}x_{i} \leq b^2 + M(1-y^{2})$$ 
 $$\sum_{i}a_i^{3}x_{i} \leq b^3 + M(1-y^{3})$$ 
 $$y^{1} + y^{2} + y^{3} \geq 1$$ 
-$$y^{1}, y^{2}, y^{3} \in \{0, 1\}$$ 
+$$y^{1}, y^{2}, y^{3} \in {0, 1}$$ 
 
 ## Logical_Conditions_On_Equalities_Or
+
+- Add a free slack variable to each equality constraint
+- Use indicator variable to designate whether slack is zero
+
+$$\sum_{i}a_{i}^{k}x_{i}  = b^{k}$$
+
+rewritten as: 
+
+$$\sum_{i}a_{i}^{k}x_{i} + w^{k} = b^{k}$$
+$$w^{k} \leq M(1-y^{k})$$
+$$w^{k} \geq -M(1-y^{k})$$
+$$y^{k}\in {0, 1}$$
 
 
 
