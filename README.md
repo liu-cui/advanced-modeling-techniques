@@ -25,6 +25,19 @@ $ r + \sum_{i}a_{i}x_{i}=U $
 
 $ 0 \leq r \leq U-L$
 
+## Absolute value
+
+### Convex case
+
+$\min\|x\|$
+
+simply substitute if absolute value function creates a convex model:
+
+$\min z$ \
+$z = x_p + x_n$ \
+$x = x_p - x_n$ 
+
+
 
 
 
