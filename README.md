@@ -20,7 +20,7 @@ some popular logical expressions
 
 Many models contain constraints like: 
 
-$r$
+$L \leq x_i \leq U$
 
   
 
