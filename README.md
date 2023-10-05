@@ -126,6 +126,13 @@ $$z \geq x_i - M(1-y_i)$$
 $$\sum_iy_i=1$$
 $$y_i \in \{0,1\}$$
 
+# Logical conditions on binary variables
+
+- And : $x_1 = 1$ and $x_2 = 1$
+  - rewritten as $x_1 + x_2 = 2$
+- Or : $x_1 = 1$ or $x_2 = 1$
+  - rewritten as $x_1 + x_2 \geq 1$
+
 
 
 
