@@ -10,7 +10,7 @@ advanced modeling techniques
   - [Non-convex Case](###Non-convex_Case)
 - [Sepcial Ordered Sets: SOS](##Sepcial_Ordered_Sets)
   - [SOS1 Constraint](###SOS1_Constraint)
-  - [SOS Constraints VS big-M Representation](###SOS_Constraints_VS_bigM_Representation)
+  - [SOS Constraints VS bigM Representation](###SOS_Constraints_VS_bigM_Representation)
 - [Piecewise Linear Functions](##Piecewise_Linear_Functions)
   - [Piecewise Linear Functions Applications](###Piecewise_Linear_Functions_Applications)
   - [Piecewise Linear Functions SOS2 Constraint](###Piecewise_Linear_Functions_SOS2_Constraint)
