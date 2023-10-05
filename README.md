@@ -18,7 +18,7 @@ some popular logical expressions:
 
 ## Range constraints
 
-Many models contain constraints like: $L \leq \sum_{i}a_{i}}x_{i} \leq U$
+Many models contain constraints like: $L \leq \sum_{i}a_{i}x_{i} \leq U$
 
 These can be rewritten as: 
 $ r + \sum_{i}a_{i}x_{i}=U $
