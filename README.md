@@ -20,27 +20,26 @@ some popular logical expressions:
 Many models contain constraints like: $L \leq \sum_{i}a_{i}x_{i} \leq U$
 
 These can be rewritten as: 
-$ r + \sum_{i}a_{i}x_{i}=U $
-
-$ 0 \leq r \leq U-L$
+$$r + \sum_{i}a_{i}x_{i}=U $$
+$$0 \leq r \leq U-L$$
 
 # Absolute value
 
 ### Convex case
 Simply substitute if absolute value function creates a convex model: $\min\|x\|$
-$min z$ \
-$z = x_p + x_n$ \
-$x = x_p - x_n$ 
+$$\min z$$
+$$z = x_p + x_n$$
+$$x = x_p - x_n$$
 
 ### Non-convex case
-Use indicator variable and arbitrary big-M value to prevent both $x_p$ and $x_n$ positive: $max\|x\|$
+Use indicator variable and arbitrary big-M value to prevent both $x_p$ and $x_n$ positive: $\max\|x\|$
 
-$max z$ \
-$z = x_p + x_n$ \
-$x = x_p - x_n$ \
-$x_p \leq My$ \
-$x_n \leq M(1-y)$ \
-$y\in \{0,1\}$ 
+$$\max z$$
+$$z = x_p + x_n$$
+$$x = x_p - x_n$$
+$$x_p \leq My$$
+$$x_n \leq M(1-y)$$
+$$y\in \{0,1\}$$ 
 
 
 ### Sepcial Ordered Sets（特殊顺序集）
@@ -51,12 +50,11 @@ $y\in \{0,1\}$
 - Variables need not be integer
 
 ### SOS-1 constraint 
-Use SOS-1 constraint to prevent both $x_p$ and $x_n$ positive: $max\|x\|$
-
-$max z$ \
-$z = x_p + x_n$ \
-$x = x_p - x_n$ \
-$x_p, x_n \in SOS-1$ 
+Use SOS-1 constraint to prevent both $x_p$ and $x_n$ positive: $\max\|x\|$
+$$\max z$$
+$$z = x_p + x_n$$
+$$x = x_p - x_n$$
+$$x_p, x_n \in SOS-1$$ 
 
 - No big-M value needed
 - Works for both convex and non-convex version
@@ -122,7 +120,7 @@ $$z\geq x_i \forall i$$
 - Harder to minimize the smallest value (minimin) or maximize the largest value (maximax)
   - Use multiple indicator variables and big-M value
 
-$\min \{ \min_{i} x_{i} \}$ can be rewritten as:
+- $\min {\min_{i} x_{i} }$ can be rewritten as:
 $$\min z$$
 $$z \geq x_i - M(1-y_i)$$
 $$\sum_iy_i=1$$
