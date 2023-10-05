@@ -28,8 +28,7 @@ $ 0 \leq r \leq U-L$
 
 ### Convex case
 Simply substitute if absolute value function creates a convex model: $\min\|x\|$
-
-$\min z$ \
+$min z$ \
 $z = x_p + x_n$ \
 $x = x_p - x_n$ 
 
