@@ -196,9 +196,7 @@ $$y\leq 2 - x_1 - x_2$$
 
 - Use indicator for the satisfied constraint, plus big-M value
 
-$$\sum_{i}a_i^{1}x_{i} \leq b^1$$ or
-$$\sum_{i}a_i^{2}x_{i} \leq b^2$$ or 
-$$\sum_{i}a_i^{3}x_{i} \leq b^3$$
+$\sum_{i}a_i^{1}x_{i} \leq b^1$   or  $\sum_{i}a_i^{2}x_{i} \leq b^2$  or  $\sum_{i}a_i^{3}x_{i} \leq b^3$
 
 rewritten as: 
 
