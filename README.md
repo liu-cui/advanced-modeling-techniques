@@ -104,6 +104,7 @@ Non-convex case is more challenging
 
 - Let $(x_i,y_i)$ represent $i^{th}$ point in piecewise linear function
 - To represent $y=f(x)$, use: $x=\sum_i\lambda_ix_i$
+
 $y=\sum_i\lambda_iy_i$ \
 $\sum_i\lambda_i = 1$ \ 
 $\lambda_i\geq 0, SOS-2$
@@ -115,7 +116,8 @@ $\lambda_i\geq 0, SOS-2$
 - Easy to minimize the largest value (minimax) or maximize the smallest value (maximin)
 
 $min\{max_i x_i\}$  can be rewritten as: 
-$min z$\
+
+$min z$ \
 $z\geq x_i \forall i$
 
 
