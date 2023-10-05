@@ -16,7 +16,7 @@ some popular logical expressions:
 - And/Or over binary variables
 - Indicator(if-then logic)
 
-## Range constraints
+# Range constraints
 Many models contain constraints like: $L \leq \sum_{i}a_{i}x_{i} \leq U$
 
 These can be rewritten as: 
@@ -24,7 +24,7 @@ $ r + \sum_{i}a_{i}x_{i}=U $
 
 $ 0 \leq r \leq U-L$
 
-## Absolute value
+# Absolute value
 
 ### Convex case
 Simply substitute if absolute value function creates a convex model: $\min\|x\|$
@@ -75,7 +75,7 @@ $x_p, x_n \in SOS-1$
   - typically results in better performance as long as M is relatively small
 
 
-## Piecewise linear functions
+# Piecewise linear functions
 
 
 
