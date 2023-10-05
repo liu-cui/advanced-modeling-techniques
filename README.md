@@ -122,7 +122,7 @@ $$z\geq x_i \forall i$$
 - Harder to minimize the smallest value (minimin) or maximize the largest value (maximax)
   - Use multiple indicator variables and big-M value
 
-$\min\{\min_{i}x_{i}\}$ can be rewritten as:
+$\min \{ \min_{i} x_{i} \}$ can be rewritten as:
 $$\min z$$
 $$z \geq x_i - M(1-y_i)$$
 $$\sum_iy_i=1$$
