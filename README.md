@@ -181,8 +181,31 @@ $$y\leq x_1 + x_2$$
 - **Exclusive or (not both)**
   - $y = (x_1$ xor $x_2=1)$
 $$y\geq x_1 - x_2$$ 
-$$y\geq x_2 - x_1$$ 
+$$y\geq x_2 - x_1$$
+$$y\leq x_1 + x_2$$
 $$y\leq 2 - x_1 - x_2$$
+
+
+## Logical_Conditions_On_Inequalities_Or
+
+- Use indicator for the satisfied constraint, plus big-M value
+
+$$\sum_{i}a_i^{1}x_{i} \leq b^1$$ or
+$$\sum_{i}a_i^{2}x_{i} \leq b^2$$ or 
+$$\sum_{i}a_i^{3}x_{i} \leq b^3$$
+
+rewritten as: 
+
+$$\sum_{i}a_i^{1}x_{i} \leq b^1 + M(1-y^{1})$$ 
+$$\sum_{i}a_i^{2}x_{i} \leq b^2 + M(1-y^{2})$$ 
+$$\sum_{i}a_i^{3}x_{i} \leq b^3 + M(1-y^{3})$$ 
+$$y_^{1} + y_^{2} + y_^{3} \geq 1$$ 
+$$y_^{1}, y_^{2}, y_^{3} \in \{0, 1\}$$ 
+
+## Logical_Conditions_On_Equalities_Or
+
+
+
 
 
 
